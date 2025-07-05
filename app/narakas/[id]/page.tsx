@@ -870,7 +870,7 @@ const narakaDetails = {
   },
     21: {
     name: { en: "Ayahpana", hi: "अयःपान", ne: "अयःपान", sa: "अयःपान" },
-    category: "torture, disrespect",
+    category: "torture",
     severity: "extreme",
     sin: {
       en: "Addiction to intoxicants and disrespecting sacred acts",
