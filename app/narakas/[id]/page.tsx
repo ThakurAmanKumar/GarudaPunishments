@@ -11,7 +11,7 @@ import { getTranslation } from "@/lib/i18n"
 // Complete detailed data for all 28 Narakas
 const narakaDetails = {
   1: {
-    name: { en: "Tamisra", hi: "तमिस्र", ne: "तमिस्र", sa: "तमिस्र" },
+    name: { en: "Tamisra", hi: "तमिस्र", ne: "तमिस्र", sa: "तामिस्रः" },
     category: "violence",
     severity: "moderate",
     sin: {
@@ -52,51 +52,51 @@ const narakaDetails = {
       sa: "ये चोरयन्ति परेभ्यः च क्षतिं कुर्वन्ति ते अन्धकारे बद्धाः भविष्यन्ति, यतः तेषां कर्मभिः तेषां आत्मा अज्ञानेन बध्यते।",
     },
   },
-  // Adding basic details for remaining Narakas (2-28) to ensure all Learn More buttons work
   2: {
-    name: { en: "Andhatamisra", hi: "अन्धतमिस्र", ne: "अन्धतमिस्र", sa: "अन्धतमिस्र" },
-    category: "deception",
+    name: { en: "Andhatamisra", hi: "अन्धतमिस्र", ne: "अन्धतमिस्र", sa: "अन्धतमिस्रः" },
+    category: "childAbuse",
     severity: "severe",
     sin: {
-      en: "Deceiving others and causing harm through lies",
-      hi: "दूसरों को धोखा देना और झूठ के माध्यम से नुकसान पहुंचाना",
-      ne: "अरूलाई धोका दिनु र झूटको माध्यमबाट हानि पुर्‍याउनु",
-      sa: "परान् वञ्चयित्वा मिथ्यावादेन क्षतिं जनयन्ति",
+      en: "Deceiving or harming one's own children or dependents",
+      hi: "अपने बच्चों या आश्रितों को धोखा देना या नुकसान पहुँचाना",
+      ne: "आफ्ना बच्चा वा आश्रितलाई धोका दिने वा पीडा दिने",
+      sa: "स्वकीयबालकानां वा आश्रितानां वञ्चना अथवा हिंसा",
     },
     punishment: {
-      en: "Blinded and tortured in complete darkness",
-      hi: "अंधा कर दिया और पूरी तरह से अंधेरे में प्रताड़ित किया गया",
-      ne: "अन्धो बनाइयो र पूर्ण अन्धकारमा यातना दिइयो",
-      sa: "अन्धं कृत्वा पूर्णान्धकारे यातना दीयते",
+      en: "Blinded in darkness and attacked by invisible tormentors",
+      hi: "गहन अंधकार में अंधा कर दिया जाता है और अदृश्य प्रेत पीड़ा देते हैं",
+      ne: "गहिरो अन्धकारमा अन्धो बनाई अदृश्य प्रेतहरूले सताउँछन्",
+      sa: "अन्धतमसि चक्षुषं हरित्वा, अदृश्यैः यमदूतैः पीड्यते",
     },
     detailedSin: {
-      en: "This punishment is for those who deceive others through elaborate lies, false promises, or fraudulent schemes.",
-      hi: "यह सजा उन लोगों के लिए है जो विस्तृत झूठ, झूठे वादों या धोखाधड़ी योजनाओं के माध्यम से दूसरों को धोखा देते हैं।",
-      ne: "यो सजाय ती व्यक्तिहरूका लागि हो जसले विस्तृत झूट, झूटा वाचा, वा धोखाधडी योजनाहरू मार्फत अरूलाई धोका दिन्छन्।",
-      sa: "इदं दण्डं तेषां कृते ये विस्तीर्णैः मिथ्यावाक्यैः, असत्यप्रतिज्ञाभिः, कपटयोजनाभिः वा परान् वञ्चयन्ति।",
+      en: "Those who cheat or hurt their children or dependents, violating sacred duties of care, suffer here.",
+      hi: "जो अपने बच्चों या आश्रितों के साथ धोखा करते हैं, उन्हें यहाँ भयंकर दण्ड दिया जाता है।",
+      ne: "आफ्ना बच्चा वा आश्रितलाई धोका दिनेहरूलाई यहाँ कठोर सजाय दिइन्छ।",
+      sa: "यः आत्मनः बालेषु द्रोहं करोति, सः अन्धतमिस्रे पतति।",
     },
     moralLesson: {
-      en: "Deception creates spiritual darkness and separates us from truth and light.",
-      hi: "धोखा आध्यात्मिक अंधकार पैदा करता है और हमें सच्चाई और प्रकाश से अलग करता है।",
-      ne: "धोकाले आध्यात्मिक अन्धकार सिर्जना गर्दछ र हामीलाई सत्य र प्रकाशबाट अलग गर्दछ।",
-      sa: "वञ्चना आध्यात्मिकं तमः सृजति सत्यं प्रकाशं च अस्मात् पृथक् करोति।",
+      en: "Harming the helpless is a sin the cosmos does not forgive.",
+      hi: "निर्बलों को नुकसान पहुँचाना ऐसा पाप है जिसे ब्रह्मांड क्षमा नहीं करता।",
+      ne: "निर्बललाई दुःख दिनु त्यो पाप हो जुन ब्रह्माण्डले माफ गर्दैन।",
+      sa: "निर्बलहिंसा अक्षम्यं पातकम्।",
     },
     avoidance: [
-      "Always speak the truth, even when difficult",
-      "Keep your promises and commitments",
-      "Be transparent in all your dealings",
-      "Avoid manipulating others for personal gain",
-      "Practice honesty in thought, word, and deed",
+      "Protect your dependents",
+      "Honor your responsibility as a guardian",
+      "Uphold love and compassion at home",
+      "Never exploit children",
+      "Be a safe haven for those in your care"
     ],
     quote: {
-      en: "Those who live in deception shall dwell in darkness, for lies obscure the light of truth from the soul.",
-      hi: "जो लोग धोखे में रहते हैं वे अंधेरे में रहेंगे, क्योंकि झूठ आत्मा से सच्चाई की रोशनी को अस्पष्ट करते हैं।",
-      ne: "जो मानिसहरू धोकामा बस्छन् तिनीहरू अन्धकारमा बस्नेछन्, किनकि झूटले आत्माबाट सत्यको ज्योतिलाई अस्पष्ट पार्छ।",
-      sa: "ये वञ्चनायां जीवन्ति ते तमसि निवसन्ति, यतः मिथ्यावाक्यानि आत्मनः सत्यस्य प्रकाशं तिरोहितं कुर्वन्ति।",
+      en: "He who blinds innocence shall live in eternal darkness.",
+      hi: "जो मासूमियत को अंधा करता है, वह सदा अंधेरे में रहेगा।",
+      ne: "जो निर्दोषतालाई अन्धो बनाउँछ, ऊ सधैं अन्धकारमा रहनेछ।",
+      sa: "यः निर्दोषतां अन्धयति, सः नित्यं तमसि तिष्ठति।",
     },
   },
+
     3: {
-    name: { en: "Raurava", hi: "रौरव", ne: "रौरव", sa: "रौरव" },
+    name: { en: "Raurava", hi: "रौरव", ne: "रौरव", sa: "रौरवः" },
     category: "cruelty",
     severity: "severe",
     sin: {
@@ -139,50 +139,51 @@ const narakaDetails = {
   },
 
   4: {
-    name: { en: "Maharaurava", hi: "महारौरव", ne: "महारौरव", sa: "महारौरव" },
-    category: "extremeCruelty",
-    severity: "extreme",
-    sin: {
-      en: "Mass slaughter and genocide",
-      hi: "सामूहिक हत्या और नरसंहार",
-      ne: "सामूहिक हत्या र नरसंहार",
-      sa: "सामूहिकं हरणं नरसंहारश्च",
-    },
-    punishment: {
-      en: "Ripped apart by wild beasts unceasingly",
-      hi: "जंगली जानवरों द्वारा लगातार चरा जाना",
-      ne: "जंगली जनावरहरूले सधैं चपेट्दै मार्ने",
-      sa: "अनवरतः पशुभिः चिर्यते ध्यायमानः",
-    },
-    detailedSin: {
-      en: "Those who initiate genocide or mass violence are punished here.",
-      hi: "जो नरसंहार या सामूहिक हिंसा की योजना बनाते हैं, उन्हें यहाँ दंड मिलता है।",
-      ne: "जो नरसंहार वा सामूहिक हिंसा गर्छन्, तिनीहरूलाई यहाँ सजाय हुन्छ।",
-      sa: "ये नरसंहारं वा सामूहिकहिंसां कुर्वन्ति ते महौरवे दण्ड्यन्ते।",
-    },
-    moralLesson: {
-      en: "Mass hatred destroys societies and souls. Embrace peace and respect for all life.",
-      hi: "सामूहिक घृणा समाज और आत्मा दोनों को नष्ट कर देती है। शांति अपनाएँ।",
-      ne: "सामूहिक घृणाले समाज र आत्मा विबिघटित गर्छ। शान्ति अपनाऔं।",
-      sa: "द्वेषं समाजात्मनि विनाशिका। शान्तिपथं जीवनाय निर्वहणीयम्।",
-    },
-    avoidance: [
-      "Reject ideologies of hate",
-      "Uphold peace",
-      "Defend innocents",
-      "Work toward reconciliation",
-      "Teach unity",
-    ],
-    quote: {
-      en: "He who delights in mass slaughter will himself be devoured by unrelenting fury.",
-      hi: "जो सामूहिक हत्या में आनंदित होता है, वह खुद क्रोध में निगला जाएगा।",
-      ne: "जो सामूहिक हत्या मा आनन्दित हुन्छ, त्यो क्रोधले आफैँलाई निग्लिनेछ।",
-      sa: "यो यः सामूहिकवधे हृष्टः स स्वयं क्रोधाभक्ष्यते।",
-    },
+  name: { en: "Maharaurava", hi: "महाराौरव", ne: "महाराैरव", sa: "महाराौरवः" },
+  category: "destruction",
+  severity: "extreme",
+  sin: {
+    en: "Causing destruction of communities, environment, or mass suffering for selfish gains",
+    hi: "समुदाय, पर्यावरण या जनसाधारण को स्वार्थवश नष्ट करना",
+    ne: "समुदाय, वातावरण वा जनतालाई स्वार्थका लागि विनाश गर्नु",
+    sa: "स्वार्थेन जनसमूहस्य वा पर्यावरणस्य विनाशनं",
   },
+  punishment: {
+    en: "Devoured by fiery beasts again and again amid unending screams",
+    hi: "दहकते दैत्य बार-बार चबाते हैं, चारों ओर चीख-पुकार होती है",
+    ne: "जलिरहेका जनावरहरूले बारम्बार चपाउँछन्, अन्त्यहीन चिच्याहटबीच",
+    sa: "दह्यमानरौरोवैः पुनः पुनः भक्ष्यते निःश्रान्तनादेन सह",
+  },
+  detailedSin: {
+    en: "This Naraka is for those whose actions destroy the well-being of many — through war, pollution, or exploitation.",
+    hi: "यह नरक उन लोगों के लिए है जिनकी वजह से समाज और प्रकृति का विनाश होता है।",
+    ne: "यो नर्क ती मानिसका लागि हो जसका कार्यले जनजीवन र प्रकृतिमा विनाश ल्याउँछ।",
+    sa: "ये येन कृते समाजस्य, पर्यावरणस्य च नाशः जायते, ते महाराौरवे पतन्ति।",
+  },
+  moralLesson: {
+    en: "Destruction born of greed returns as destruction of the self.",
+    hi: "लोभ से पैदा हुआ विनाश, अंत में आत्म-विनाश बन जाता है।",
+    ne: "लोभले उत्पन्न विनाश अन्ततः आत्म-विनाश बन्छ।",
+    sa: "लोभसमुत्थितं विनाशं स्वनाशं जनयति।",
+  },
+  avoidance: [
+    "Live sustainably",
+    "Avoid harming nature and society",
+    "Reject war and exploitation",
+    "Think beyond self-interest",
+    "Preserve peace and ecology"
+  ],
+  quote: {
+    en: "He who scorches the world shall be consumed by its flames.",
+    hi: "जो दुनिया को जलाता है, वह उसी की आग में भस्म हो जाएगा।",
+    ne: "जो संसार जलाउँछ, उही आगमा आफैँ जल्छ।",
+    sa: "यः लोकं दहति, सः तस्यैव वह्निना दह्यते।",
+  },
+},
+
 
   5: {
-    name: { en: "Kumbhipaka", hi: "कुम्भीपाक", ne: "कुम्भीपाक", sa: "कुम्भीपाक" },
+    name: { en: "Kumbhipaka", hi: "कुम्भीपाक", ne: "कुम्भीपाक", sa: "कुम्भीपाकः" },
     category: "animalCruelty",
     severity: "severe",
     sin: {
@@ -225,7 +226,7 @@ const narakaDetails = {
   },
 
   6: {
-    name: { en: "Kalasutra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कलसूत्र" },
+    name: { en: "Kalasutra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कालसूत्रः" },
     category: "disrespect",
     severity: "severe",
     sin: {
@@ -268,7 +269,7 @@ const narakaDetails = {
   },
 
   7: {
-    name: { en: "Asipattravana", hi: "अशिपत्त्रवन", ne: "अशिपत्त्रवन", sa: "अशिपत्त्रवन" },
+    name: { en: "Asipattravana", hi: "अशिपत्त्रवन", ne: "अशिपत्त्रवन", sa: "असिपत्रवनम्" },
     category: "sexualMisconduct",
     severity: "moderate",
     sin: {
@@ -311,7 +312,7 @@ const narakaDetails = {
   },
 
   8: {
-    name: { en: "Sukaramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुख" },
+    name: { en: "Sukaramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुखः" },
     category: "corruption",
     severity: "moderate",
     sin: {
@@ -354,7 +355,7 @@ const narakaDetails = {
   },
 
   9: {
-    name: { en: "Andhakupa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूप" },
+    name: { en: "Andhakupa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूपः" },
     category: "betrayal",
     severity: "severe",
     sin: {
@@ -396,51 +397,51 @@ const narakaDetails = {
     },
   },
 
-  10: {
-    name: { en: "Krmibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजन" },
-    category: "greed",
-    severity: "moderate",
+    10: {
+    name: { en: "Krimibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजनः" },
+    category: "cannibalism",
+    severity: "extreme",
     sin: {
-      en: "Gorging on filthy or spoiled food",
-      hi: "गंदी या खराब भोजन बहुत मात्रा में खाना",
-      ne: "गनदिग्ध वा बिग्रिएको भोजन ठूलो मात्रामा खाने",
-      sa: "गलितं वा दूषितं अन्नं अतिभुक्तिः",
+      en: "Eating human flesh, harming others for food or taboo indulgence",
+      hi: "मानव मांस खाना या वर्जित भोजन के लिए दूसरों को नुकसान पहुँचाना",
+      ne: "मानव मासु खानु वा निषेधित भोजनका लागि अरुलाई पीडा दिनु",
+      sa: "मानवमांसभक्षणं वा निषिद्धान्नसंपादनाय हिंसा",
     },
     punishment: {
-      en: "Forced to eat worms and filth",
-      hi: "कीड़े और गंदगी खाने के लिए मजबूर किया जाना",
-      ne: "पुच्चियाँ र फोहोर खाने बाध्य हुने",
-      sa: "कृमिभिः मलैश्च भोज्यं अनिवार्यं",
+      en: "Eaten alive by worms while simultaneously feeding on filth",
+      hi: "जीवित रहते कीड़ों द्वारा खाया जाना और खुद गंदगी खाना",
+      ne: "जिउँदै कीराबाट खाइने र आफैँ फोहोर खाने",
+      sa: "जीवन्नपि कृमिभिः खाद्यते, मलमेव खादति च",
     },
     detailedSin: {
-      en: "Those who overindulge in filthy or spoiled food, ignoring purity, are punished here.",
-      hi: "जो लोग साफ़-सुथरे भोजन की परवाह किए बिना गंदा या सड़ा हुआ भोजन खाते हैं, उन्हें कृमिभोजन में भेजा जाता है।",
-      ne: "जो सफा खानाको परवाह नगरी मलिन वा बिग्रिएको खाना खाने गर्छन्, तिनीहरूलाई कृमिभोजनमा पठाइन्छ।",
-      sa: "ये येन पवित्रतां त्यज्य दूषितं अन्नं अतिभुञ्जन्ति ते कृमिभोजने दण्ड्यन्ते।",
+      en: "Those who commit acts of cannibalism or indulge in perverse consumption are condemned here.",
+      hi: "जो नरभक्षण या घृणास्पद भोजन में लिप्त होते हैं, उन्हें यहाँ दण्ड दिया जाता है।",
+      ne: "जो नरभक्षण वा निषेधित भोजन गर्छन्, उनीहरू यहाँ दण्डित हुन्छन्।",
+      sa: "ये मानवमांसादीन्यशुचीन्यश्नन्ति, कृमिभोजने पतन्ति।",
     },
     moralLesson: {
-      en: "Neglecting purity in food clouds the body and mind. Choose nourishment wisely.",
-      hi: "केले हुई या साफ़-सुथरे भोजन की अनदेखी शरीर और मन दोनों को प्रभावित करती है। भोजन बुद्धिमानी से चुनें।",
-      ne: "गलिलो वा सफ़ा खानाको बेवास्ता शरीर र मन दुवैलाई प्रभाव गर्छ। सतर्कता साथ निर्णय गरौं।",
-      sa: "अशुद्धान्नं तु मनश्च शरीरञ्च मिलावयति। विवेकेन भोजने निर्णयः कर्तव्यः।",
+      en: "Perverse indulgence leads to the most degrading suffering.",
+      hi: "घृणास्पद भोग विलास सबसे नीच पीड़ा को जन्म देता है।",
+      ne: "निन्दनीय भोगले सबैभन्दा तल्लो पीडा ल्याउँछ।",
+      sa: "निषिद्धभोगः अधमदुःखस्य कारणम्।",
     },
     avoidance: [
-      "Eat balanced and fresh food",
-      "Avoid spoiled or filthy meals",
-      "Maintain dietary purity",
-      "Give thanks for food",
-      "Practice mindful eating",
+      "Respect the sanctity of life",
+      "Avoid extreme indulgences",
+      "Follow dietary ethics",
+      "Reject harmful cravings",
+      "Practice self-discipline"
     ],
     quote: {
-      en: "He who devours filth finds his soul steeped in corruption.",
-      hi: "जो गंदगी खाता है, उसकी आत्मा भ्रष्टाचार में डूब जाती है।",
-      ne: "जो फोहोर खान्छ, उसको आत्मा भ्रष्टाचारमा डुब्छ।",
-      sa: "यः मलिनम् उपभुङ्क्ते तस्य आत्मा भ्रष्टतया स्निग्धा भवति।",
+      en: "He who devours the sacred shall be devoured by the lowest.",
+      hi: "जो पवित्र को खाता है, वह सबसे नीच द्वारा खाया जाएगा।",
+      ne: "जो पवित्रतालाई खान्छ, उसलाई सबभन्दा तल्लोले खानेछ।",
+      sa: "यः पवित्रं खादति, सः अधमेभ्यः खाद्यते।",
     },
   },
 
   11: {
-    name: { en: "Samsmana", hi: "संसमन", ne: "संसमन", sa: "संसमन" },
+    name: { en: "Samsmana", hi: "संसमन", ne: "संसमन", sa: "संसमन्ः" },
     category: "pride",
     severity: "moderate",
     sin: {
@@ -483,7 +484,7 @@ const narakaDetails = {
   },
 
   12: {
-    name: { en: "Taptasurmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मि" },
+    name: { en: "Taptasurmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मिः" },
     category: "alcoholism",
     severity: "severe",
     sin: {
@@ -526,7 +527,7 @@ const narakaDetails = {
   },
 
   13: {
-    name: { en: "Vajrakantaka", hi: "वज्रकंटक", ne: "वज्रकण्टक", sa: "वज्रकण्टक" },
+    name: { en: "Vajrakantaka", hi: "वज्रकंटक", ne: "वज्रकण्टक", sa: "वज्रकंटकः" },
     category: "ego",
     severity: "severe",
     sin: {
@@ -612,7 +613,7 @@ const narakaDetails = {
   },
 
   15: {
-    name: { en: "Puyoda", hi: "पूयोद", ne: "पूयोद", sa: "पूयोद" },
+    name: { en: "Puyoda", hi: "पूयोद", ne: "पूयोद", sa: "पूयोदः" },
     category: "dishonesty",
     severity: "severe",
     sin: {
@@ -655,7 +656,7 @@ const narakaDetails = {
   },
 
   16: {
-    name: { en: "Pranarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोध" },
+    name: { en: "Pranarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोधः" },
     category: "murder",
     severity: "extreme",
     sin: {
@@ -698,7 +699,7 @@ const narakaDetails = {
   },
 
   17: {
-    name: { en: "Visasana", hi: "विशसन", ne: "विशसन", sa: "विशसन" },
+    name: { en: "Visasana", hi: "विशसन", ne: "विशसन", sa: "विशसनम्" },
     category: "poisoning",
     severity: "severe",
     sin: {
@@ -741,7 +742,7 @@ const narakaDetails = {
   },
 
   18: {
-    name: { en: "Lalabhaksa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्ष" },
+    name: { en: "Lalabhaksa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्षकः" },
     category: "forbiddenFood",
     severity: "moderate",
     sin: {
@@ -784,7 +785,7 @@ const narakaDetails = {
   },
 
   19: {
-    name: { en: "Sarameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसन" },
+    name: { en: "Sarameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसनः" },
     category: "betrayalOfTrust",
     severity: "severe",
     sin: {
