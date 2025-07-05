@@ -1,7 +1,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Clock, Globe, Heart, Scale, Star } from "lucide-react"
+import { useLanguage } from "@/hooks/use-language"
+import { getTranslation } from "@/i18n"
 
 export default function AboutPage() {
+  const lang = useLanguage()
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-50">
       <div className="container mx-auto px-4 py-8">
