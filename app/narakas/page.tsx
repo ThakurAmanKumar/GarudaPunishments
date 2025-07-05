@@ -12,7 +12,7 @@ import { getTranslation } from "@/lib/translations"
 const narakas = [
   {
     id: 1,
-    name: { en: "Tamisra", hi: "तमिस्र", ne: "तमिस्र", sa: "तमिस्र" },
+    name: { en: "Tamisra", hi: "तमिस्र", ne: "तमिस्र", sa: "तामिस्रः" },
     category: "violence",
     sin: {
       en: "Theft and violence against others",
@@ -30,25 +30,25 @@ const narakas = [
   },
   {
     id: 2,
-    name: { en: "Andhatamisra", hi: "अंधतमिस्र", ne: "अन्धतमिस्र", sa: "अन्धतमिस्र" },
-    category: "deception",
+    name: { en: "Andhatamisra", hi: "अंधतमिस्र", ne: "अन्धतमिस्र", sa: "अन्धतमिस्रः" },
+    category: "childAbuse",
     sin: {
-      en: "Deceiving others and causing harm through lies",
-      hi: "दूसरों को धोखा देना और झूठ के माध्यम से नुकसान पहुंचाना",
-      ne: "अरूलाई धोका दिने र झूठको माध्यमबाट हानि पुर्याउने",
-      sa: "परान् वञ्चयित्वा मृषावाक्यैः हानिं कुर्वन्",
+      en: "Deceiving or harming one's own children or dependents",
+      hi: "अपने बच्चों या आश्रितों को धोखा देना या नुकसान पहुँचाना",
+      ne: "आफ्ना बच्चा वा आश्रितलाई धोका दिने वा पीडा दिने",
+      sa: "स्वकीयबालकानां वा आश्रितानां वञ्चना अथवा हिंसा",
     },
     punishment: {
-      en: "Blinded and tortured in complete darkness",
-      hi: "अंधा कर दिया जाना और पूर्ण अंधकार में यातना",
-      ne: "अन्धो बनाइएर पूर्ण अन्धकारमा यातना दिने",
-      sa: "अन्धीकृत्य सम्पूर्णान्धकारे यातना",
+      en: "Blinded in darkness and attacked by invisible tormentors",
+      hi: "गहन अंधकार में अंधा कर दिया जाता है और अदृश्य प्रेत पीड़ा देते हैं",
+      ne: "गहिरो अन्धकारमा अन्धो बनाई अदृश्य प्रेतहरूले सताउँछन्",
+      sa: "अन्धतमसि चक्षुषं हरित्वा, अदृश्यैः यमदूतैः पीड्यते",
     },
     severity: "severe",
   },
   {
     id: 3,
-    name: { en: "Raurava", hi: "रौरव", ne: "रौरव", sa: "रौरव" },
+    name: { en: "Raurava", hi: "रौरव", ne: "रौरव", sa: "रौरवः" },
     category: "cruelty",
     sin: {
       en: "Causing pain to living beings",
@@ -66,25 +66,25 @@ const narakas = [
   },
   {
     id: 4,
-    name: { en: "Maharaurava", hi: "महारौरव", ne: "महारौरव", sa: "महारौरव" },
-    category: "extremeCruelty",
+    name: { en: "Maharaurava", hi: "महाराौरव", ne: "महाराैरव", sa: "महाराौरवः" },
+    category: "destruction",
     sin: {
-      en: "Extreme violence and cruelty to others",
-      hi: "दूसरों के साथ अत्यधिक हिंसा और क्रूरता",
-      ne: "अरूसँग अत्यधिक हिंसा र क्रूरता",
-      sa: "परेषु अत्यधिकहिंसा क्रूरता च",
+      en: "Causing destruction of communities, environment, or mass suffering for selfish gains",
+      hi: "समुदाय, पर्यावरण या जनसाधारण को स्वार्थवश नष्ट करना",
+      ne: "समुदाय, वातावरण वा जनतालाई स्वार्थका लागि विनाश गर्नु",
+      sa: "स्वार्थेन जनसमूहस्य वा पर्यावरणस्य विनाशनं",
     },
     punishment: {
-      en: "Devoured by more terrible Ruru creatures",
-      hi: "और भी भयानक रुरु जीवों द्वारा भक्षण",
-      ne: "अझ डरलाग्दो रुरु जीवहरूद्वारा खाइने",
-      sa: "अत्यन्तभयानकैः रुरुजीवैः भक्षितः",
+      en: "Devoured by fiery beasts again and again amid unending screams",
+      hi: "दहकते दैत्य बार-बार चबाते हैं, चारों ओर चीख-पुकार होती है",
+      ne: "जलिरहेका जनावरहरूले बारम्बार चपाउँछन्, अन्त्यहीन चिच्याहटबीच",
+      sa: "दह्यमानरौरोवैः पुनः पुनः भक्ष्यते निःश्रान्तनादेन सह",
     },
     severity: "extreme",
   },
   {
     id: 5,
-    name: { en: "Kumbhipaka", hi: "कुम्भीपाक", ne: "कुम्भीपाक", sa: "कुम्भीपाक" },
+    name: { en: "Kumbhipaka", hi: "कुम्भीपाक", ne: "कुम्भीपाक", sa: "कुम्भीपाकः" },
     category: "animalCruelty",
     sin: {
       en: "Killing animals and birds for pleasure",
@@ -102,7 +102,7 @@ const narakas = [
   },
   {
     id: 6,
-    name: { en: "Kalasutra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कलसूत्र" },
+    name: { en: "Kalasutra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कालसूत्रः" },
     category: "disrespect",
     sin: {
       en: "Disrespecting parents, teachers, and elders",
@@ -120,7 +120,7 @@ const narakas = [
   },
   {
     id: 7,
-    name: { en: "Asipatravana", hi: "असिपत्रवन", ne: "असिपत्रवन", sa: "असिपत्रवन" },
+    name: { en: "Asipatravana", hi: "असिपत्रवन", ne: "असिपत्रवन", sa: "असिपत्रवनम्" },
     category: "sexualMisconduct",
     sin: {
       en: "Adultery and sexual misconduct",
@@ -138,7 +138,7 @@ const narakas = [
   },
   {
     id: 8,
-    name: { en: "Sukaramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुख" },
+    name: { en: "Sukaramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुखः" },
     category: "corruption",
     sin: {
       en: "Accepting bribes and corruption in duty",
@@ -156,7 +156,7 @@ const narakas = [
   },
   {
     id: 9,
-    name: { en: "Andhakupa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूप" },
+    name: { en: "Andhakupa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूपः" },
     category: "betrayal",
     sin: {
       en: "Betraying trust and harming friends",
@@ -174,25 +174,26 @@ const narakas = [
   },
   {
     id: 10,
-    name: { en: "Krimibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजन" },
-    category: "greed",
+    name: { en: "Krimibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजनः" },
+    category: "cannibalism",
     sin: {
-      en: "Extreme greed and hoarding wealth",
-      hi: "अत्यधिक लालच और धन संचय",
-      ne: "अत्यधिक लालच र धन जम्मा गर्ने",
-      sa: "अत्यधिकलोभः धनसंचयश्च",
+      en: "Eating human flesh, harming others for food or taboo indulgence",
+      hi: "मानव मांस खाना या वर्जित भोजन के लिए दूसरों को नुकसान पहुँचाना",
+      ne: "मानव मासु खानु वा निषेधित भोजनका लागि अरुलाई पीडा दिनु",
+      sa: "मानवमांसभक्षणं वा निषिद्धान्नसंपादनाय हिंसा",
+
     },
     punishment: {
-      en: "Forced to eat worms and insects",
-      hi: "कीड़े और कीट खाने के लिए मजबूर",
-      ne: "कीरा र कीटहरू खान बाध्य पारिने",
-      sa: "कृमिकीटान् भक्षितुं बाध्यः",
+      en: "Eaten alive by worms while simultaneously feeding on filth",
+      hi: "जीवित रहते कीड़ों द्वारा खाया जाना और खुद गंदगी खाना",
+      ne: "जिउँदै कीराबाट खाइने र आफैँ फोहोर खाने",
+      sa: "जीवन्नपि कृमिभिः खाद्यते, मलमेव खादति च",
     },
-    severity: "moderate",
+    severity: "extreme",
   },
   {
     id: 11,
-    name: { en: "Samsamana", hi: "संसमन", ne: "संसमन", sa: "संसमन" },
+    name: { en: "Samsamana", hi: "संसमन", ne: "संसमन", sa: "संसमन्ः" },
     category: "pride",
     sin: {
       en: "Excessive pride and arrogance",
@@ -210,7 +211,7 @@ const narakas = [
   },
   {
     id: 12,
-    name: { en: "Taptasurmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मि" },
+    name: { en: "Taptasurmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मिः" },
     category: "alcoholism",
     sin: {
       en: "Excessive drinking and intoxication",
@@ -228,7 +229,7 @@ const narakas = [
   },
   {
     id: 13,
-    name: { en: "Vajrakantaka", hi: "वज्रकंटक", ne: "वज्रकण्टक", sa: "वज्रकण्टक" },
+    name: { en: "Vajrakantaka", hi: "वज्रकंटक", ne: "वज्रकण्टक", sa: "वज्रकंटकः" },
     category: "ego",
     sin: {
       en: "Harming others due to ego and selfishness",
@@ -264,7 +265,7 @@ const narakas = [
   },
   {
     id: 15,
-    name: { en: "Puyoda", hi: "पूयोद", ne: "पूयोद", sa: "पूयोद" },
+    name: { en: "Puyoda", hi: "पूयोद", ne: "पूयोद", sa: "पूयोदः" },
     category: "dishonesty",
     sin: {
       en: "Persistent lying and false testimony",
@@ -282,7 +283,7 @@ const narakas = [
   },
   {
     id: 16,
-    name: { en: "Pranarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोध" },
+    name: { en: "Pranarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोधः" },
     category: "murder",
     sin: {
       en: "Taking life of innocent beings",
@@ -300,7 +301,7 @@ const narakas = [
   },
   {
     id: 17,
-    name: { en: "Visasana", hi: "विशसन", ne: "विशसन", sa: "विशसन" },
+    name: { en: "Visasana", hi: "विशसन", ne: "विशसन", sa: "विशसनम्" },
     category: "poisoning",
     sin: {
       en: "Poisoning others or spreading disease",
@@ -318,7 +319,7 @@ const narakas = [
   },
   {
     id: 18,
-    name: { en: "Lalabhaksa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्ष" },
+    name: { en: "Lalabhaksa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्षकः" },
     category: "forbiddenFood",
     sin: {
       en: "Eating forbidden food and breaking dietary laws",
@@ -336,7 +337,7 @@ const narakas = [
   },
   {
     id: 19,
-    name: { en: "Sarameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसन" },
+    name: { en: "Sarameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसनः" },
     category: "betrayalOfTrust",
     sin: {
       en: "Betraying those who trusted you",
@@ -354,7 +355,7 @@ const narakas = [
   },
   {
     id: 20,
-    name: { en: "Avici", hi: "अविचि", ne: "अविचि", sa: "अविचि" },
+    name: { en: "Avici", hi: "अविचि", ne: "अविचि", sa: "अविचिः" },
     category: "extremeEvil",
     sin: {
       en: "Committing the most heinous crimes",
@@ -372,7 +373,7 @@ const narakas = [
   },
   {
     id: 21,
-    name: { en: "Ayahpana", hi: "अयःपान", ne: "अयःपान", sa: "अयःपान" },
+    name: { en: "Ayahpana", hi: "अयःपान", ne: "अयःपान", sa: "अयःपानः" },
     category: "alcoholism",
     sin: {
       en: "Torturing others for pleasure",
@@ -390,7 +391,7 @@ const narakas = [
   },
   {
     id: 22,
-    name: { en: "Ksharakardama", hi: "क्षारकर्दम", ne: "क्षारकर्दम", sa: "क्षारकर्दम" },
+    name: { en: "Ksharakardama", hi: "क्षारकर्दम", ne: "क्षारकर्दम", sa: "क्षारकर्दमः" },
     category: "corruption",
     sin: {
       en: "Bribery, corruption, and misuse of authority",
@@ -408,7 +409,7 @@ const narakas = [
   },
   {
     id: 23,
-    name: { en: "Raksogana", hi: "राक्षोगण", ne: "राक्षोगण", sa: "राक्षोगण" },
+    name: { en: "Raksogana", hi: "राक्षोगण", ne: "राक्षोगण", sa: "राक्षोगणः" },
     category: "violence",
     sin: {
       en: "Killing innocents, mass violence, and bloodshed",
@@ -426,7 +427,7 @@ const narakas = [
   },
   {
     id: 24,
-    name: { en: "Sulaprota", hi: "शूलप्रोत", ne: "शूलप्रोत", sa: "शूलप्रोत" },
+    name: { en: "Sulaprota", hi: "शूलप्रोत", ne: "शूलप्रोत", sa: "शूलप्रोतः" },
     category: "cruelty",
     sin: {
       en: "Torturing others for pleasure or power",
@@ -444,7 +445,7 @@ const narakas = [
   },
   {
     id: 25,
-    name: { en: "Dandasuka", hi: "दंडशूक", ne: "दण्डशूक", sa: "दण्डशूक" },
+    name: { en: "Dandasuka", hi: "दंडशूक", ne: "दण्डशूक", sa: "दण्डसूकः" },
     category: "torture",
     sin: {
       en: "Spreading terror through threats, violence, or coercion",
@@ -462,7 +463,7 @@ const narakas = [
   },
   {
     id: 26,
-    name: { en: "Avata", hi: "अवट", ne: "अवट", sa: "अवट" },
+    name: { en: "Avata", hi: "अवट", ne: "अवट", sa: "अवतः" },
     category: "blasphemy",
     sin: {
       en: "Disrespecting sacred scriptures, saints, or divine rituals",
@@ -480,7 +481,7 @@ const narakas = [
   },
   {
     id: 27,
-    name: { en: "Paryavartana", hi: "पर्यावर्तन", ne: "पर्यावर्तन", sa: "पर्यावर्तन" },
+    name: { en: "Paryavartana", hi: "पर्यावर्तन", ne: "पर्यावर्तन", sa: "पर्यावर्तनम्" },
     category: "betrayal",
     sin: {
       en: "Turning against one’s benefactor or helper out of envy or malice",
@@ -498,7 +499,7 @@ const narakas = [
   },
   {
     id: 28,
-    name: { en: "Suchimukha", hi: "सूचिमुख", ne: "सूचिमुख", sa: "सूचिमुख" },
+    name: { en: "Suchimukha", hi: "सूचिमुख", ne: "सूचिमुख", sa: "सूचिमुखः" },
     category: "miserliness",
     sin: {
       en: "Extreme miserliness and hoarding wealth without any charity",
