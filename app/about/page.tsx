@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Clock, Globe, Heart, Scale, Star } from "lucide-react"
 import { useLanguage } from "@/hooks/use-language"
-import { getTranslation } from "@/i18n"
+import { getTranslation } from "@/lib/translations"
 
 export default function AboutPage() {
   const lang = useLanguage()
