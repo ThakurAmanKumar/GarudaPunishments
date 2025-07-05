@@ -909,10 +909,9 @@ const narakaDetails = {
       hi: "जो आग तुम पीते हो, वही आत्मा की प्यास बन जाती है।",
       ne: "तिमीले पिएको आगो नै आत्माको तिर्खा बन्छ।",
       sa: "यं वह्निं पिबसि, स आत्मनः तृषां जनयति।",
-    }
+    },
   },
-  
-  
+    
 }
 
 export default function NarakaDetailPage({ params }: { params: { id: string } }) {
