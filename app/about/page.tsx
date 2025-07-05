@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { BookOpen, Clock, Globe, Heart, Scale, Star } from "lucide-react"
 import { useLanguage } from "@/hooks/use-language"
