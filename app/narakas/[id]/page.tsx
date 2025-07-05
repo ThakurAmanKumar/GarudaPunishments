@@ -225,7 +225,7 @@ const narakaDetails = {
   },
 
   6: {
-    name: { en: "Kalasūtra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कलसूत्र" },
+    name: { en: "Kalasutra", hi: "कलसूत्र", ne: "कलसूत्र", sa: "कलसूत्र" },
     category: "disrespect",
     severity: "severe",
     sin: {
@@ -268,7 +268,7 @@ const narakaDetails = {
   },
 
   7: {
-    name: { en: "Āśipattravana", hi: "अशिपत्त्रवन", ne: "अशिपत्त्रवन", sa: "अशिपत्त्रवन" },
+    name: { en: "Asipattravana", hi: "अशिपत्त्रवन", ne: "अशिपत्त्रवन", sa: "अशिपत्त्रवन" },
     category: "sexualMisconduct",
     severity: "moderate",
     sin: {
@@ -311,7 +311,7 @@ const narakaDetails = {
   },
 
   8: {
-    name: { en: "Sukāramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुख" },
+    name: { en: "Sukaramukha", hi: "सूकरमुख", ne: "सूकरमुख", sa: "सूकरमुख" },
     category: "corruption",
     severity: "moderate",
     sin: {
@@ -354,7 +354,7 @@ const narakaDetails = {
   },
 
   9: {
-    name: { en: "Andhakūpa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूप" },
+    name: { en: "Andhakupa", hi: "अंधकूप", ne: "अन्धकूप", sa: "अन्धकूप" },
     category: "betrayal",
     severity: "severe",
     sin: {
@@ -397,7 +397,7 @@ const narakaDetails = {
   },
 
   10: {
-    name: { en: "Kṛmibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजन" },
+    name: { en: "Krmibhojana", hi: "कृमिभोजन", ne: "कृमिभोजन", sa: "कृमिभोजन" },
     category: "greed",
     severity: "moderate",
     sin: {
@@ -440,7 +440,7 @@ const narakaDetails = {
   },
 
   11: {
-    name: { en: "Sāṃsmāna", hi: "संसमन", ne: "संसमन", sa: "संसमन" },
+    name: { en: "Samsmana", hi: "संसमन", ne: "संसमन", sa: "संसमन" },
     category: "pride",
     severity: "moderate",
     sin: {
@@ -483,7 +483,7 @@ const narakaDetails = {
   },
 
   12: {
-    name: { en: "Taptasūrmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मि" },
+    name: { en: "Taptasurmi", hi: "तप्तसूर्मि", ne: "तप्तसूर्मि", sa: "तप्तसूर्मि" },
     category: "alcoholism",
     severity: "severe",
     sin: {
@@ -569,7 +569,7 @@ const narakaDetails = {
   },
 
   14: {
-    name: { en: "Vaitaraṇī", hi: "वैतरणी", ne: "वैतरणी", sa: "वैतरणी" },
+    name: { en: "Vaitarani", hi: "वैतरणी", ne: "वैतरणी", sa: "वैतरणी" },
     category: "multipleSins",
     severity: "extreme",
     sin: {
@@ -655,7 +655,7 @@ const narakaDetails = {
   },
 
   16: {
-    name: { en: "Prāṇarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोध" },
+    name: { en: "Pranarodha", hi: "प्राणरोध", ne: "प्राणरोध", sa: "प्राणरोध" },
     category: "murder",
     severity: "extreme",
     sin: {
@@ -698,7 +698,7 @@ const narakaDetails = {
   },
 
   17: {
-    name: { en: "Viśāsana", hi: "विशसन", ne: "विशसन", sa: "विशसन" },
+    name: { en: "Visasana", hi: "विशसन", ne: "विशसन", sa: "विशसन" },
     category: "poisoning",
     severity: "severe",
     sin: {
@@ -741,7 +741,7 @@ const narakaDetails = {
   },
 
   18: {
-    name: { en: "Lālabhakṣa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्ष" },
+    name: { en: "Lalabhaksa", hi: "लालभक्ष", ne: "लालभक्ष", sa: "लालभक्ष" },
     category: "forbiddenFood",
     severity: "moderate",
     sin: {
@@ -763,8 +763,8 @@ const narakaDetails = {
       sa: "ये येन वर्जित अपवित्रं भोज्यम् जानतः सेवन्ते ते लालभक्षे यातिताः।",
     },
     moralLesson: {
-      en: "Food affects more than the body—it shapes the mind and karma.",
-      hi: "भोजन सिर्फ शरीर पर असर नहीं करता—यह मन और कर्म को भी आकार देता है।",
+      en: "Food affects more than the body it shapes the mind and karma.",
+      hi: "भोजन सिर्फ शरीर पर असर नहीं करता यह मन और कर्म को भी आकार देता है।",
       ne: "भोजनले शरीर मात्र होइन आत्मा र कर्मलाई पनि गुमाउने काम गर्दछ।",
       sa: "अन्नं केवल शरीरं न नयति तदनन्तरं मनसं कर्म भी रूपयति।",
     },
@@ -784,7 +784,7 @@ const narakaDetails = {
   },
 
   19: {
-    name: { en: "Sārameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसन" },
+    name: { en: "Sarameyasana", hi: "सारमेयसन", ne: "सारमेयसन", sa: "सारमेयसन" },
     category: "betrayalOfTrust",
     severity: "severe",
     sin: {
@@ -827,7 +827,7 @@ const narakaDetails = {
   },
 
   20: {
-    name: { en: "Avīci", hi: "अविचि", ne: "अविचि", sa: "अविचि" },
+    name: { en: "Avici", hi: "अविचि", ne: "अविचि", sa: "अविचि" },
     category: "extremeEvil",
     severity: "extreme",
     sin: {
@@ -868,8 +868,7 @@ const narakaDetails = {
       sa: "अत्र अनुत्थप्तात्मनाम् गर्तिर्विरुद्धा अनन्तरूपेण पीड्यताम्।",
     },
   },
-
-  //from here 21
+  
 }
 
 export default function NarakaDetailPage({ params }: { params: { id: string } }) {
