@@ -910,6 +910,304 @@ const narakaDetails = {
       sa: "कामपात्रं अयसः अपि उष्णतरं भवति।",
     },
   },
+  22: {
+  name: { en: "Ksharakardama", hi: "क्षारकर्दम", ne: "क्षारकर्दम", sa: "क्षारकर्दमः" },
+  category: "corruption",
+  severity: "severe",
+  sin: {
+    en: "Bribery, corruption, and misuse of authority",
+    hi: "घूसखोरी, भ्रष्टाचार और अधिकारों का दुरुपयोग",
+    ne: "घूस, भ्रष्टाचार र अधिकारको दुरुपयोग",
+    sa: "घोषधनग्रहणं भ्रष्टाचारः च अधिकारस्य दुरुपयोगः",
+  },
+  punishment: {
+    en: "Immersed in a pit of acidic and filthy mud eternally",
+    hi: "तेज़ाब और गंदगी से भरे दलदल में सदा डूबे रहना",
+    ne: "तेजाब र फोहोरले भरिएको हिलोमा सधैं डुबाइन्छ",
+    sa: "सदा क्षारयुक्तकर्दमे निमग्नः भवति",
+  },
+  detailedSin: {
+    en: "This naraka punishes those who exploit power and indulge in corrupt practices.",
+    hi: "यह नरक उन लोगों को दण्ड देता है जो अधिकारों का दुरुपयोग और भ्रष्टाचार करते हैं।",
+    ne: "यो नर्कमा ती दण्डित हुन्छन् जो अधिकारको दुरुपयोग र भ्रष्टाचार गर्छन्।",
+    sa: "अत्र ये येन स्वाधिकारं दूषयन्ति, ते क्षारकर्दमे पतन्ति।",
+  },
+  moralLesson: {
+    en: "Corruption erodes the foundation of justice and fairness.",
+    hi: "भ्रष्टाचार न्याय और समानता की नींव को नष्ट करता है।",
+    ne: "भ्रष्टाचारले न्याय र समानताको जग नै कमजोर पार्छ।",
+    sa: "भ्रष्टाचारः न्यायस्य मूलं क्षिणोति।",
+  },
+  avoidance: [
+    "Reject bribes",
+    "Stay honest in your position",
+    "Promote transparency",
+    "Support justice",
+    "Avoid greed in power"
+  ],
+  quote: {
+    en: "He who soils justice shall bathe forever in filth.",
+    hi: "जो न्याय को गंदा करता है, वह सदा गंदगी में डूबा रहेगा।",
+    ne: "जो न्यायलाई मैलो बनाउँछ, ऊ सधैं फोहोरमा डुब्नेछ।",
+    sa: "यः न्यायं मलिनं करोति, सः सदा कर्दमे निमग्नः भवति।",
+  },
+},
+
+23: {
+  name: { en: "Raksogana", hi: "राक्षोगण", ne: "राक्षोगण", sa: "राक्षोगणः" },
+  category: "violence",
+  severity: "extreme",
+  sin: {
+    en: "Killing innocents, mass violence, and bloodshed",
+    hi: "निर्दोषों की हत्या, जनहिंसा और रक्तपात",
+    ne: "निष्पापको हत्या, सामूहिक हिंसा र रगतपात",
+    sa: "निर्दोषवधः जनहिंसा च रुधिरपातनं च",
+  },
+  punishment: {
+    en: "Torn apart and devoured by bloodthirsty demons repeatedly",
+    hi: "रक्तपिपासु राक्षसों द्वारा बार-बार फाड़ा और खाया जाना",
+    ne: "रक्तपिपासु राक्षसहरूले बारम्बार च्यातेर खाने सजाय",
+    sa: "रक्तलोभिनः राक्षसाः पुनः पुनः विदार्य खादन्ति",
+  },
+  detailedSin: {
+    en: "Those who cause mass suffering, murder innocents, or enjoy bloodshed are thrown into Raksogana.",
+    hi: "जो निर्दोषों की हत्या करते हैं या जनहिंसा फैलाते हैं, उन्हें राक्षोगण में डाला जाता है।",
+    ne: "जो निर्दोषको हत्या गर्छन् वा हिंसा फैलाउँछन्, उनीहरू राक्षोगणमा पुग्छन्।",
+    sa: "ये निर्दोषान् हन्ति, जनानां हिंसां कुर्युश्च, ते राक्षोगणे पतन्ति।",
+  },
+  moralLesson: {
+    en: "The unjust taking of life invites the cruelest retribution.",
+    hi: "अन्यायपूर्वक जीवन लेना सबसे क्रूर प्रतिशोध को बुलाता है।",
+    ne: "अन्यायपूर्वक ज्यान लिँदा सबैभन्दा क्रूर बदला आउँछ।",
+    sa: "अन्यायेन प्राणापहरणं घोरं दण्डं आह्वयति।",
+  },
+  avoidance: [
+    "Do not harm the innocent",
+    "Respect all life",
+    "Condemn violence",
+    "Be a peacemaker",
+    "Uphold justice and compassion"
+  ],
+  quote: {
+    en: "The blood of the guiltless cries out louder than thunder.",
+    hi: "निर्दोषों का खून गर्जन से भी ऊंची आवाज़ में चिल्लाता है।",
+    ne: "निष्पापको रगत गड्गडाहटभन्दा पनि ठूलो स्वरमा कराउँछ।",
+    sa: "निर्दोषरुधिरं गर्जनादपि उच्यते।",
+  },
+},
+24: {
+  name: { en: "Sulaprota", hi: "शूलप्रोत", ne: "शूलप्रोत", sa: "शूलप्रोतः" },
+  category: "cruelty",
+  severity: "extreme",
+  sin: {
+    en: "Torturing others for pleasure or power",
+    hi: "दूसरों को आनंद या शक्ति के लिए यातना देना",
+    ne: "अरुलाई सुख वा शक्ति प्राप्तिका लागि पीडा दिनु",
+    sa: "स्वसुखाय वा शक्त्यर्थं परपीड़नं",
+  },
+  punishment: {
+    en: "Impaled by sharp spears from all directions, unending pain",
+    hi: "चारों ओर से नुकीले शूलों से बींधा जाना, अंतहीन पीड़ा",
+    ne: "सबैतिरबाट धारिला बर्छाले घोचिने, अन्त्य नहुने पीडा",
+    sa: "सर्वतः तीक्ष्णैः शूलैः विदारितो नित्यदुःखं प्राप्नोति",
+  },
+  detailedSin: {
+    en: "Those who derive satisfaction by inflicting pain and torture on others are condemned here.",
+    hi: "जो दूसरों को यातना देकर सुख पाते हैं, उन्हें शूलप्रोत नरक में दण्डित किया जाता है।",
+    ne: "जो अरुलाई पीडा दिई सुख लिन्छन्, ती शूलप्रोत नरकमा पठाइन्छन्।",
+    sa: "ये स्वसुखार्थं अन्येभ्यः क्लेशं ददति, ते शूलप्रोते पतन्ति।",
+  },
+  moralLesson: {
+    en: "Inflicting suffering for one's gain invites unrelenting agony.",
+    hi: "स्वार्थ के लिए दिया गया कष्ट अंतहीन पीड़ा को जन्म देता है।",
+    ne: "स्वार्थका लागि दिएको पीडाले अन्त्य नहुने दुःख ल्याउँछ।",
+    sa: "स्वलाभार्थं दत्तं दुःखं अनन्तदुःखाय भवति।",
+  },
+  avoidance: [
+    "Do not cause unnecessary harm",
+    "Be empathetic to others' pain",
+    "Condemn torture and abuse",
+    "Help relieve others’ suffering",
+    "Act with compassion and justice"
+  ],
+  quote: {
+    en: "The spear that pierced others shall now pierce you, endlessly.",
+    hi: "जो शूल दूसरों को चुभाया, वही अब अंतहीन रूप से तुम्हें चुभेगा।",
+    ne: "अरुलाई घोचिएको शूल अब तिमीलाई अनन्तसम्म घोचिनेछ।",
+    sa: "येन शूलेन परेषां पीडनं कृतम्, तेनैव नित्यं स्वः पीड्यते।",
+  },
+},
+
+25: {
+  name: { en: "Dandasuka", hi: "दण्डसूक", ne: "दण्डसूक", sa: "दण्डसूकः" },
+  category: "torture",
+  severity: "severe",
+  sin: {
+    en: "Spreading terror through threats, violence, or coercion",
+    hi: "धमकी, हिंसा या ज़बरदस्ती से भय फैलाना",
+    ne: "धम्की, हिंसा वा बलजफ्ती गरेर आतंक फैलाउनु",
+    sa: "भीषया हिंसायाः बलात्कारेण च त्रासजननं",
+  },
+  punishment: {
+    en: "Devoured repeatedly by venomous serpents",
+    hi: "विषैले साँपों द्वारा बार-बार निगला जाना",
+    ne: "विषालु सर्पहरूबाट बारम्बार निलिनु",
+    sa: "दंशिनां सर्पाणां मुखेन पुनः पुनः निग्रस्यते",
+  },
+  detailedSin: {
+    en: "Those who terrorize others with fear and cruelty are devoured by snakes in this Naraka.",
+    hi: "जो दूसरों को भय और क्रूरता से आतंकित करते हैं, वे इस नरक में सर्पों द्वारा खाए जाते हैं।",
+    ne: "जो अरुलाई भय र क्रूरताबाट आतङ्कित पार्छन्, तिनीहरू सर्पद्वारा खाइन्छन्।",
+    sa: "ये त्रासं जनयन्ति लोके भीषणेन चाचार्येण, ते दण्डसूके पतन्ति।",
+  },
+  moralLesson: {
+    en: "Those who instill fear shall one day be consumed by it.",
+    hi: "जो भय फैलाते हैं, एक दिन उसी में समा जाते हैं।",
+    ne: "जो डर फैलाउँछन्, एक दिन त्यही डरले तिनीहरूलाई खानेछ।",
+    sa: "भीषां जनयन् आत्मानं एव तेन ग्रस्यते।",
+  },
+  avoidance: [
+    "Do not threaten others",
+    "Stand against coercion",
+    "Avoid bullying or intimidation",
+    "Respect others’ peace",
+    "Use power kindly"
+  ],
+  quote: {
+    en: "The snake of fear coils where it was once unleashed.",
+    hi: "डर का साँप वहीं लौटता है जहाँ से वह छोड़ा गया था।",
+    ne: "डरको सर्प त्यहीँ फर्किन्छ जहाँबाट छोडिएको थियो।",
+    sa: "भीषासर्पः तस्मिन्नेव स्थानं प्रतिनिवर्तते।",
+  },
+},
+26: {
+  name: { en: "Avata", hi: "अवत", ne: "अवत", sa: "अवतः" },
+  category: "blasphemy",
+  severity: "severe",
+  sin: {
+    en: "Disrespecting sacred scriptures, saints, or divine rituals",
+    hi: "पवित्र ग्रंथों, संतों या धार्मिक अनुष्ठानों का अपमान",
+    ne: "पवित्र शास्त्र, सन्त वा धार्मिक कर्महरूको अपमान गर्नु",
+    sa: "शास्त्रसन्तानां देवकर्मणां च निन्दा",
+  },
+  punishment: {
+    en: "Thrown into a dark pit filled with venomous insects and filth",
+    hi: "अंधेरे गड्ढे में डाला जाता है जहाँ जहरीले कीड़े और गंदगी होती है",
+    ne: "अँध्यारो खाल्डोमा हालिन्छ जहाँ विषालु किरा र फोहोर हुन्छ",
+    sa: "अन्धकूपे पतत्यसौ, यत्र विषकीटाः च मलिनानि सन्ति",
+  },
+  detailedSin: {
+    en: "Avata is reserved for those who insult spiritual truths and mock divinity.",
+    hi: "यह नरक उन लोगों के लिए है जो धार्मिक सत्यों और दिव्यता का अपमान करते हैं।",
+    ne: "यो नर्क ती मानिसहरूका लागि हो जसले धार्मिक सत्य र दिव्यतालाई अपमान गर्छन्।",
+    sa: "ये येन धर्मसत्यं देवत्वं च उपहसन्ति, ते अवते पतन्ति।",
+  },
+  moralLesson: {
+    en: "Respect for the divine is essential for spiritual harmony.",
+    hi: "दिव्यता के प्रति सम्मान ही आध्यात्मिक संतुलन की कुंजी है।",
+    ne: "दिव्यताको सम्मान नै आध्यात्मिक समरसताको कुञ्जी हो।",
+    sa: "देवसम्मानः आत्मशान्तेः मूलं भवति।",
+  },
+  avoidance: [
+    "Respect all faiths and scriptures",
+    "Refrain from blasphemy",
+    "Uphold reverence for divine traditions",
+    "Speak truthfully about spirituality",
+    "Honor spiritual leaders humbly"
+  ],
+  quote: {
+    en: "He who spits at the sky, finds it fall back on his face.",
+    hi: "जो आकाश की ओर थूकता है, वह स्वयं पर ही गिरता है।",
+    ne: "जो आकाशतिर थुके, ऊ आफैँ माथि फर्केर पर्छ।",
+    sa: "यो यः व्योम्नि निगिरति, सः आत्मनि एव पतति।",
+  },
+},
+
+27: {
+  name: { en: "Paryavartana", hi: "पर्यावर्तन", ne: "पर्यावर्तन", sa: "पर्यावर्तनम्" },
+  category: "betrayal",
+  severity: "extreme",
+  sin: {
+    en: "Turning against one’s benefactor or helper out of envy or malice",
+    hi: "अपने उपकारकर्ता के विरुद्ध ईर्ष्या या द्वेष से मुड़ जाना",
+    ne: "उपकार गर्नेप्रति ईर्ष्या वा द्वेषले विद्रोह गर्नु",
+    sa: "यस्य कृते उपकारः तस्य विरुद्धं इर्ष्यया वा द्वेषेण कार्यम्",
+  },
+  punishment: {
+    en: "Endlessly rotated and crushed in a burning wheel of blades",
+    hi: "जलते हुए चक्के में लगातार घुमाया और कुचला जाना",
+    ne: "जलिरहेको पाङ्ग्रामा निरन्तर घुमाइने र पिसिने",
+    sa: "दह्यमानचक्रे नित्यं परिभ्रम्य पिष्टः भवति",
+  },
+  detailedSin: {
+    en: "Those who betray their saviors or supporters out of jealousy suffer in Paryavartana.",
+    hi: "जो ईर्ष्या के कारण अपने हितैषियों से विश्वासघात करते हैं, उन्हें इस नरक में भेजा जाता है।",
+    ne: "जो इर्ष्याले आफ्ना उपकारकर्तालाई धोका दिन्छन्, तिनीहरूलाई पर्यावर्तन नरकमा पठाइन्छ।",
+    sa: "ये येन कृते स्वस्य उपकारं विहाय द्वेषेण तं वञ्चयन्ति, ते पर्यावर्तने पतन्ति।",
+  },
+  moralLesson: {
+    en: "Betrayal of kindness is the greatest evil of all.",
+    hi: "कृपा का विश्वासघात सबसे बड़ा पाप है।",
+    ne: "उपकारको विश्वासघात सबैभन्दा ठूलो पाप हो।",
+    sa: "कृपायाः वञ्चना महापातकम्।",
+  },
+  avoidance: [
+    "Remain loyal to your helpers",
+    "Control envy and jealousy",
+    "Uphold gratitude and integrity",
+    "Value support and kindness",
+    "Be faithful in relationships"
+  ],
+  quote: {
+    en: "The wheel turns for all who turned away from those who lifted them.",
+    hi: "चक्र उन सब पर घूमता है जो उन्हें छोड़ते हैं जिन्होंने उन्हें उठाया।",
+    ne: "पाङ्ग्रा उनीहरूका लागि घुम्छ जो उठाउनेलाई छाड्छन्।",
+    sa: "यः उद्धारकं परित्यजति, तस्मिन् चक्रं नित्यं भ्रमति।",
+  },
+},
+
+28: {
+  name: { en: "Suchimukha", hi: "सूचिमुख", ne: "सूचिमुख", sa: "सूचिमुखः" },
+  category: "miserliness",
+  severity: "severe",
+  sin: {
+    en: "Extreme miserliness and hoarding wealth without any charity",
+    hi: "अत्यधिक कंजूसी और दान में धन का उपयोग न करना",
+    ne: "धेरै कन्जुस्याइँ र दान नगरी सम्पत्ति संकलन गर्नु",
+    sa: "अत्यल्पव्ययः, दानेन रहितं धनार्जनं च",
+  },
+  punishment: {
+    en: "Pierced all over the body with hot sharp needles",
+    hi: "पूरे शरीर को गर्म और नुकीली सुइयों से बींधा जाना",
+    ne: "सम्पूर्ण शरीर तातो र धारिला सुइहरूले छेडिन्छ",
+    sa: "सर्वाङ्गं तप्तसूचिभिः विदारितं भवति",
+  },
+  detailedSin: {
+    en: "Those who selfishly hoard riches while ignoring the needy suffer in Suchimukha.",
+    hi: "जो जरूरतमंदों को नजरअंदाज कर धन इकट्ठा करते हैं, उन्हें सूचिमुख नरक में पीड़ा दी जाती है।",
+    ne: "जो गरिबलाई बेवास्ता गरी सम्पत्ति जम्मा गर्छन्, उनीहरूलाई सूचिमुख नरकमा दुख दिइन्छ।",
+    sa: "ये येन दरिद्रान् उपेक्ष्य स्वार्थेन धनं सञ्चिन्वन्ति, ते सूचिमुखे पतन्ति।",
+  },
+  moralLesson: {
+    en: "Wealth unused for good becomes a curse to the holder.",
+    hi: "जो धन भलाई में नहीं लगता, वही अंततः अभिशाप बनता है।",
+    ne: "जसले राम्रोमा खर्च हुँदैन, त्यो सम्पत्ति शाप बन्छ।",
+    sa: "असत्कारे यत् धनं, तत् शापरूपं भवति।",
+  },
+  avoidance: [
+    "Be generous with your wealth",
+    "Help the needy",
+    "Practice charity",
+    "Let go of greed",
+    "Share your blessings"
+  ],
+  quote: {
+    en: "The hand that holds too tightly shall bleed from within.",
+    hi: "जो हाथ बहुत कसकर पकड़ता है, वह अंदर से ही लहूलुहान हो जाता है।",
+    ne: "जो हातले अत्यधिक सम्हाल्छ, त्यसले भित्रैबाट रगत बगाउँछ।",
+    sa: "अत्यधिकं यः गृह्णाति, तस्य हस्तः स्वयमेव स्रवति।",
+  },
+},
  
 }
 
