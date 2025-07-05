@@ -825,7 +825,92 @@ const narakaDetails = {
       sa: "यः स्वरक्तं वञ्चति स लोके दृश्यमानः परिपाक्याम् उपस्थाप्यते।",
     },
   },
-    
+  20: {
+  name: { en: "Avici", hi: "अविचि", ne: "अविचि", sa: "अविचिः" },
+  category: "extremeEvil",
+  severity: "extreme",
+  sin: {
+    en: "Committing the gravest sins repeatedly without remorse",
+    hi: "बार-बार सबसे घोर पाप करना और कभी पछताना नहीं",
+    ne: "पुनःपुनः गम्भीर पाप गर्नु र कहिल्यै पश्चाताप नगर्नु",
+    sa: "घोरतमं पापं पुनःपुनः कृत्वा निष्कम्पः भवति यः",
+  },
+  punishment: {
+    en: "Endless suffering without reprieve in a fire pit",
+    hi: "निरंतर अग्निकुंड में बिना विराम के कष्ट सहना",
+    ne: "बिना रोकिने आगोको खाल्डोमा अनन्त पीडा",
+    sa: "अनवरतमं अग्निकुण्डे दुःखेन निष्क्रमः यः पच्यते",
+  },
+  detailedSin: {
+    en: "Those who commit heinous acts without any remorse are condemned eternally.",
+    hi: "जो व्यक्ति घोर पाप करते हैं और पछताते नहीं, उन्हें अविचि में नित्य दण्ड दिया जाता है।",
+    ne: "गम्भीर पाप गर्ने र पश्चाताप नगर्नेहरू अविचिमा सदा दण्डित हुन्छन्।",
+    sa: "यः महापापं कुर्यात् प्रायश्चित्तं विना, सः अविच्यां नित्यं दह्यते।",
+  },
+  moralLesson: {
+    en: "Without repentance, even the worst sins echo forever.",
+    hi: "पश्चाताप के बिना, सबसे भयंकर पाप भी सदा गूंजते हैं।",
+    ne: "पश्चाताप नभएमा, सबैभन्दा ठूलो पाप पनि सधैं गुञ्जन्छ।",
+    sa: "विना प्रायश्चित्तं पापं नश्यति न कदाचन।",
+  },
+  avoidance: [
+    "Always reflect on your actions",
+    "Avoid repeating grave mistakes",
+    "Embrace remorse and redemption",
+    "Seek forgiveness",
+    "Live a life of self-awareness"
+  ],
+  quote: {
+    en: "Endless is the flame for the heart that never repents.",
+    hi: "जो हृदय कभी नहीं पछताता, उसके लिए अग्नि अनंत है।",
+    ne: "पश्चाताप नगर्ने हृदयका लागि आगो अनन्त हुन्छ।",
+    sa: "अप्रायश्चित्तहृदयस्य अग्निः अनन्तो भवति।",
+  },
+},
+
+  21: {
+    name: { en: "Ayahpana", hi: "अयःपान", ne: "अयहपान", sa: "अयःपानः" },
+    category: "alcoholism",
+    severity: "severe",
+    sin: {
+      en: "Habitual intoxication and misleading others to drink",
+      hi: "नशे की आदत और दूसरों को भी बहकाना",
+      ne: "नशालु बानी र अरुलाई पनि प्रलोभन देखाउनु",
+      sa: "मद्यसेवनं नित्यं चान्येषां प्रलोभनं च",
+    },
+    punishment: {
+      en: "Molten iron forced to drink endlessly",
+      hi: "पिघला हुआ लोहा बार-बार पिलाया जाता है",
+      ne: "गालिएको फलाम बारम्बार पिलाइन्छ",
+      sa: "पिघलितं अयः पुनः पुनः पेयत्वेन दत्तम्",
+    },
+    detailedSin: {
+      en: "Those who indulge in excessive drinking and lead others astray are condemned here.",
+      hi: "जो अत्यधिक शराब पीते हैं और दूसरों को भी बहकाते हैं, उन्हें यहाँ दण्ड मिलता है।",
+      ne: "जो अत्यधिक नशा गर्छन् र अरुलाई पनि बिगार्छन्, तिनीहरूलाई यहाँ दण्ड दिइन्छ।",
+      sa: "यः स्वं मद्यं पिबति चान्ये च पापमार्गे नयति, अयं अयःपाने पतति।",
+    },
+    moralLesson: {
+      en: "Addiction is self-destruction, and dragging others makes it worse.",
+      hi: "नशा आत्म-विनाश है, और दूसरों को खींचना उसे और घातक बनाता है।",
+      ne: "लत आत्म-विनाश हो, अरूलाई तान्नु अझ भयङ्कर हो।",
+      sa: "मद्यसेवनं आत्मनाशकं, अन्यनयनं च महापातकम्।",
+    },
+    avoidance: [
+      "Avoid intoxicants",
+      "Do not promote harmful habits",
+      "Choose clarity over fog",
+      "Encourage sobriety",
+      "Be a responsible influence"
+    ],
+    quote: {
+      en: "The cup of desire burns hotter than iron.",
+      hi: "इच्छा का प्याला लोहे से भी ज्यादा जलाता है।",
+      ne: "इच्छाको गिलास फलामभन्दा पनि तातो हुन्छ।",
+      sa: "कामपात्रं अयसः अपि उष्णतरं भवति।",
+    },
+  },
+ 
 }
 
 export default function NarakaDetailPage({ params }: { params: { id: string } }) {
